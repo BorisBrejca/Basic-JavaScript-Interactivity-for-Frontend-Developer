@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tabs - JS for the planner</title>
+		<link rel="stylesheet" href="libs/bootstrap.css" />
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+
+	<body>
+		<h1 class="mb-4">Tabs</h1>
+
+		<ul class="list-group list-group-horizontal-xl mb-3">
+			<li class="list-group-item" data-tab="tab-1">Tab 1</li>
+			<li class="list-group-item" data-tab="tab-2">Tab 2</li>
+			<li class="list-group-item" data-tab="tab-3">Tab 3</li>
+		</ul>
+
+		<div class="card p-3" data-tab-content id="tab-1">
+			<h3>Tab 1</h3>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, ducimus fugit
+				corrupti culpa libero quam mollitia magni pariatur, quos soluta commodi porro
+				voluptatem! Voluptate nobis veniam voluptatum, quisquam et obcaecati?
+			</p>
+		</div>
+
+		<div class="card p-3 hidden" data-tab-content id="tab-2">
+			<h3>Tab 2</h3>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, ducimus fugit
+				corrupti culpa libero quam mollitia magni pariatur, quos soluta commodi porro
+				voluptatem! Voluptate nobis veniam voluptatum, quisquam et obcaecati?
+			</p>
+		</div>
+
+		<div class="card p-3 hidden" data-tab-content id="tab-3">
+			<h3>Tab 3</h3>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, ducimus fugit
+				corrupti culpa libero quam mollitia magni pariatur, quos soluta commodi porro
+				voluptatem! Voluptate nobis veniam voluptatum, quisquam et obcaecati?
+			</p>
+		</div>
+
+		<div class="flexPrewNext">
+			<a class="prewLesson" href="02-accordeon.html">
+				<button class="btn btn-outline-primary mb-3" id="button" type="button"> Previous lesson (Accordion)
+				</button>
+			</a>
+
+			<a class="nextLesson" href="04-modal.html">
+				<button class="btn btn-outline-primary mb-3" id="button" type="button"> Next lesson (Modal windows)
+				</button>
+			</a>
+
+		<script src="./js/03-tabs.js"></script>
+	</body>
+</html>

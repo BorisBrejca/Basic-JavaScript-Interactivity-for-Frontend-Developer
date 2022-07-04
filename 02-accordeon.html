@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Accordion - JS for the layout designer</title>
+		<link rel="stylesheet" href="libs/bootstrap.css" />
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+
+	<body>
+		<h1 class="mb-4">Accordion</h1>
+
+		<div class="list-group">
+			<div class="list-group-item list-header" data-name="accordeon-title">
+				Block 1: Header
+			</div>
+			<div class="list-group-item list-content hidden" data-name="list">
+				<h5>Block 1: Content</h5>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus praesentium
+				nulla illum mollitia unde quo reprehenderit deserunt, impedit eos nemo magnam soluta
+				distinctio adipisci maxime tenetur voluptatem at qui.
+			</div>
+
+			<div class="list-group-item list-header" data-name="accordeon-title">
+				Block 2: Header
+			</div>
+			<div class="list-group-item list-content hidden " data-name="list">
+				<h5>Unit 2. content</h5>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus praesentium
+				nulla illum mollitia unde quo reprehenderit deserunt, impedit eos nemo magnam soluta
+				distinctio adipisci maxime tenetur voluptatem at qui.
+			</div>
+
+			<div class="list-group-item list-header" data-name="accordeon-title">
+				Block 3: Header
+			</div>
+			<div class="list-group-item list-content hidden" data-name="list">
+				<h5>Unit 3.Content</h5>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus praesentium
+				nulla illum mollitia unde quo reprehenderit deserunt, impedit eos nemo magnam soluta
+				distinctio adipisci maxime tenetur voluptatem at qui.
+			</div>
+
+			<div class="list-group-item list-header" data-name="accordeon-title">
+				Block 4: Header
+			</div>
+			<div class="list-group-item list-content hidden" data-name="list">
+				<h5>Unit 4.Content</h5>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus praesentium
+				nulla illum mollitia unde quo reprehenderit deserunt, impedit eos nemo magnam soluta
+				distinctio adipisci maxime tenetur voluptatem at qui.
+			</div>
+		</div>
+
+		<div class="flexPrewNext">
+			<a class="prewLesson" href="01-show-hide-block.html">
+				<button class="btn btn-outline-primary mb-3" id="button" type="button"> Previous Lesson (Open/Hide Block)
+				</button>
+			</a>
+
+			<a class="nextLesson" href="03-tabs.html">
+				<button class="btn btn-outline-primary mb-3" id="button" type="button"> Next Lesson (Open/Hide Block)
+				</button>
+			</a>
+		</div>
+		<script src="./js/02-accordeon.js"></script>
+	</body>
+</html>
